@@ -10,7 +10,7 @@ interface Props {
 const Procedures = ({ items }: Props) => {
   return (
     <>
-      <div className='relative isolate'>
+      <div className='relative isolate mt-12'>
         <div
           aria-hidden='true'
           className='pointer-events-none absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'
@@ -23,9 +23,9 @@ const Procedures = ({ items }: Props) => {
             className='relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]'
           />
         </div>
-        <h1 className='text-3xl uppercase text-center font-medium mb-9'>
+        <h2 className='text-4xl sm:text-5xl md:text-center font-bold mb-9 text-gray-900'>
           Procedūros
-        </h1>
+        </h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4'>
           {items.length &&
             items.map((item) => {

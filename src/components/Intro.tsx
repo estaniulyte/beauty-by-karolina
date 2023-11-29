@@ -10,17 +10,15 @@ const Intro = () => {
           alt='Portrait picture'
         />
       </div>
-      <div className='md:ml-5 md:w-2/3 pt-3 md:pt-24 flex flex-col gap-y-2'>
+      <div className='md:ml-5 md:w-2/3 pt-3 md:pt-24 flex flex-col gap-y-2 text-center md:text-left'>
         <p className='text-xl'></p>
-        <h2 className='text-3xl font-semibold'>
-          Veido Grožio procedūros Vilniuje
+        <h2 className='text-5xl font-bold md:text-6xl lg:text-7xl'>
+          Veido <span className='text-amber-700'>grožio procedūros</span>{' '}
+          Vilniuje
         </h2>
-        <p className='text-2xl pt-3'>
-          Labas! <span className='font-semibold'>Esu Karolina ;)</span>
-        </p>
-        <p className='text-xl'>
-          Mano tikslas kuo natūraliau pabrėžti Tavo grožį kokybiškų priemonių
-          pagalba.
+        <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
+          Labas! Esu Karolina ir mano tikslas kuo natūraliau pabrėžti Tavo grožį
+          kokybiškų priemonių pagalba.
         </p>
       </div>
     </div>
