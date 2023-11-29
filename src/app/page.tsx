@@ -10,7 +10,6 @@ import Intro from '@/components/Intro';
 export default function Home() {
   return (
     <main className=''>
-      {/* <Header /> */}
       <MaxWidthWrapper>
         <Intro />
         <Procedures items={procedures} />

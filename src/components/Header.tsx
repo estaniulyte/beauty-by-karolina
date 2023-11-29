@@ -22,8 +22,10 @@ const Header = () => {
   return (
     <header
       className={`${
-        isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px]'
-      } sticky z-30 transition-all duration-300 left-0 right-0 border-b mb-5`}
+        isActive
+          ? 'bg-neutral-100 py-[16px]'
+          : 'bg-transparent py-[20px] border-b'
+      } fixed z-30 transition-all duration-300 left-0 right-0  mb-5`}
     >
       <MaxWidthWrapper>
         <span className='mx-auto left-0 right-0 flex justify-between items-center'>
