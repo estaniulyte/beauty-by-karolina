@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className='pt-12'>
       <MaxWidthWrapper>
-        <p className='pt-9'>apie</p>
+        <p className='pt-9'>Dirbama ties puslapiu...</p>
       </MaxWidthWrapper>
     </main>
   );

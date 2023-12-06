@@ -20,24 +20,22 @@ export const navItems = [
 export const procedures = [
   {
     name: 'Blakstienų laminavimas',
-    image:
-      // 'https://drive.google.com/uc?export=download&id=1uQ3go1R0P5JYk1lWJ-drJfl8yFhGVRBZ',
-      'https://drive.google.com/uc?export=download&id=1oKWeHS_ji77BVnCcpVg4-T1AcbEJK_Jd',
+    image: '/laminavimas.jpg',
+    alt: 'Eyelash lamination',
   },
   {
     name: 'Antakių laminavimas',
-    image:
-      // 'https://drive.google.com/uc?export=download&id=12lzjRYzaJv1XmMDf5QHeJ0dnDMsC6mjS',
-      'https://drive.google.com/uc?export=download&id=1uQ3go1R0P5JYk1lWJ-drJfl8yFhGVRBZ',
+    image: '/antakiuLaminavimas.jpg',
+    alt: 'Eyebrow lamination',
   },
   {
     name: 'Antakių dažymas',
-    image:
-      'https://drive.google.com/uc?export=download&id=1a-latEdSj51ec88J8857Jg9K86j788EV',
+    image: '/antakiai.jpg',
+    alt: 'Eyebrow coloring',
   },
   {
     name: 'Permanentinis makiažas',
-    image:
-      'https://drive.google.com/uc?export=download&id=1Ld_saOTtnqKtRy2XsrBzcMuv5Ito-RTW',
+    image: '/pmu.jpg',
+    alt: 'Permanent make-up',
   },
 ];

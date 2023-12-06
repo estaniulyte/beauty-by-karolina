@@ -1,6 +1,9 @@
+import Image from 'next/image';
+
 interface Item {
   name: string;
   image: string;
+  alt: string;
 }
 
 interface Props {
@@ -34,15 +37,13 @@ const Procedures = ({ items }: Props) => {
                   key={item.name}
                   className='w-full relative justify-center items-center aspect-square bg-slate-300'
                 >
-                  <img
-                    className='object-cover h-[100%] w-[100%]'
+                  <Image
                     src={item.image}
-                    alt='Procedure image'
-                  ></img>
-                  {/* <h4 className='text-center uppercase text-xl max-w-[60%] leading-relaxed font-semibold'>
-
-                    {item.name}
-                  </h4> */}
+                    width={500}
+                    height={500}
+                    className='object-cover h-[100%] w-[100%]'
+                    alt={item.alt}
+                  />
                   <div className='absolute inset-0 bg-black opacity-60 rounded-md'></div>
                   <div className='absolute inset-0 flex items-center justify-center'>
                     <h2 className='text-white text-3xl font-bold text-center max-w-[60%]'>
