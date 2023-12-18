@@ -1,6 +1,6 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 
-export default function About() {
+export default function Contacts() {
   return (
     <main className='pt-12'>
       <MaxWidthWrapper>
